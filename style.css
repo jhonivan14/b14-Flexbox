@@ -3,14 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+@media screen and (min-width: 360px) {
+    
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: yellow;
+    min-width: 100vh;
     font-family: Arial, sans-serif;
+    background-color: yellow;
 }
 
 .container {
@@ -21,7 +23,7 @@ body {
     padding: 40px;
     max-width: 1200px;
     background: yellow;
-    border-radius: 12px;
+  
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -63,4 +65,5 @@ a {
 
 a:hover {
     color: #0056b3;
+}
 }
